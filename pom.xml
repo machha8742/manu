@@ -61,12 +61,12 @@
   			<configuration>
             <instrumentation>
                 <excludes>
-                    <exclude>target/cobertura</exclude>
+                    <exclude>target/site/cobertura/coverage.xml</exclude>
                 </excludes>
             </instrumentation>
             <suiteXmlFiles>
-            <suiteXmlFile>coverage.xml</suiteXmlFile>
-        </suiteXmlFiles>
+            <suiteXmlFiles>coverage.xml</suiteXmlFiles>
+            </suiteXmlFiles>
         </configuration>
   		</plugin>
   		<plugin>
