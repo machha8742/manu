@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="doc_examples.lambda_java_example.AppTest"/>
+      <class name="doc_examples.lambda_java_example.App"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
