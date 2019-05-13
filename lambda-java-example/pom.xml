@@ -61,7 +61,7 @@
   			<configuration>
             <instrumentation>
                 <excludes>
-                    <exclude>target/cobertura</exclude>
+                    <exclude>target/cobertura/test.class</exclude>
                 </excludes>
             </instrumentation>
             <formats>
